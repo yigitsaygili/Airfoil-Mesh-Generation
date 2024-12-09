@@ -47,6 +47,7 @@ Between two boundaries a triangular mesh is generated using the main mesh genera
 
 
 7- Refining the Mesh
+
 When generating a 2D airfoil mesh, the key factors to consider are element size and mesh density. Element size refers to the spacing between mesh points, which influences the accuracy of the simulation; smaller elements lead to higher resolution and more accurate results, particularly in regions with steep gradients like the leading edge, trailing edge, and boundary layers. Mesh density, which defines how finely the domain is discretized, should be higher near the airfoil surface where the flow features (such as velocity and pressure variations) are most significant.
 
 In contrast, the mesh can be coarser farther away from the airfoil to reduce computational cost. The distribution of mesh density is also important—using a finer mesh near the airfoil and gradually coarser elements away from the surface is common. Proper mesh refinement ensures accurate results without excessive computational expense, and a well-distributed mesh avoids introducing numerical errors or inefficiencies in simulation.
